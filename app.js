@@ -5,18 +5,19 @@ function rosieTheFortuneTeller() {
 
 	 if (answer=='turtle') {
 		alert("Here is your fortune: Do not panic.");
-
+        return;
 	} else if (answer=='rose') {
 		alert("Here is your fortune: You will find a thing. It may be important.");
-
+        return;
 	}  else if (answer=='teacup') {
 		alert("Here is your fortune: The end is near, might as well have dessert.");
-
+        return;
 	} else if (answer=='moon') {
 		alert("Here is your fortune: Look before you leap. Or wear a parachute.");
-
+        return;
 	} else {
 		alert("I am sorry, " + name +". I do not think I understand you correctly. Are you sure you tiped in one of the offered possibilities?");
+        return;
 	}
 } //end function
 rosieTheFortuneTeller();
